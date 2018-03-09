@@ -10,14 +10,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
- * Created by Jackie on 2018/3/9.
+ * test unit
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j
 public class LoggerTest {
 
-  //  private final Logger logger = LoggerFactory.getLogger(LoggerTest.class); //使用lombok就可以不用写这个,直接注入用log进行调用
+  //  private final Logger logger = LoggerFactory.getLogger(LoggerTest.class); //使用lombok就可以不用写这个,直接注入用log进行调用,目前不行
      private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LoggerTest.class);
     @Test
     public void test1(){
