@@ -17,8 +17,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @Slf4j
 public class LoggerTest {
 
-  //  private final Logger logger = LoggerFactory.getLogger(LoggerTest.class); //使用lombok就可以不用写这个,直接注入用log进行调用,目前不行
-     private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LoggerTest.class);
+  //  private final Logger logger = LoggerFactory.getLogger(LoggerTest.class); //使用lombok就可以不用写这,直接用log进行调用
     @Test
     public void test1(){
       String name = "imooc";
