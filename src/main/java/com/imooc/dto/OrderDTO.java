@@ -28,6 +28,8 @@ public class OrderDTO {
     private BigDecimal orderAmount;
     /** 订单状态,默认为新下单. */
     private Integer orderStatus;
+    /** 支付状态 */
+    private Integer payStatus;
     /** 创建时间 */
     private Date createTime;
     /** 更新时间 */
